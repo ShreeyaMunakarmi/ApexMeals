@@ -1,0 +1,58 @@
+body {
+    background-color: cadetblue;
+    padding: 5px 5px 5px 5px;
+}
+
+fieldset {
+    background-image: linear-gradient(cornflowerblue, burlywood);
+    width: 300px;
+    height: 190px;
+    padding: 15px 15px 15px 15px;
+    color: black;
+    border: 1px solid black;
+    position: fixed;
+    top: 38%;
+    left: 39%;
+    opacity: 0.9;
+}
+
+#buttonclick {
+    width: 200px;
+    margin-left: 40px;
+    color: black;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.background {
+    background-image: url(pexels-rostislav-uzunov-5011647.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 25px;
+    width: 100%;
+    height: 794px;
+}
+
+#imagelogin {
+    margin-left: 43%;
+}
+
+label {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+#coricon1 {
+    margin-right: 18px;
+}
+
+#coricon2 {
+    margin-right: 15px;
+}
+
+a {
+    text-decoration: none;
+}

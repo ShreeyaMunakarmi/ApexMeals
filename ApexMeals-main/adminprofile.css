@@ -1,0 +1,106 @@
+body {
+    background-color: cadetblue;
+    padding: 5px 5px 5px 5px;
+}
+
+.background {
+    background-image: url(pexels-vanessa-loring-5968221.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 25px;
+    width: 100%;
+    height: 794px;
+}
+
+#corhead {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px 15px;
+}
+
+#imageprofile {
+    border: 1px solid black;
+    background-color: hsl(51, 96%, 57%);
+    width: 90px;
+    height: 90px;
+    opacity: 0.92;
+    border-radius: 45px;
+    padding: 10px 10px;
+}
+
+#exit {
+    border: 1px solid black;
+    opacity: 0.9;
+    width: 35px;
+    height: 30px;
+    background-color: hsl(51, 96%, 57%);
+    padding: 15px 15px;
+    border-radius: 25px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: justify;
+    margin-left: 86%;
+}
+
+#exit a {
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    text-decoration: none;
+}
+
+#exit a:hover {
+    color: cadetblue;
+}
+
+#title {
+    display: flex;
+    justify-content: flex-start;
+    border: 1px solid black;
+    opacity: 0.9;
+    width: 240px;
+    height: 40px;
+    background-color: hsl(51, 96%, 57%);
+    padding: 10px 10px;
+    border-radius: 25px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: justify;
+}
+
+#cortitle {
+    padding-left: 40%;
+}
+
+#profileborder {
+    display: flex;
+    border: 8px ridge lightsalmon;
+    justify-content: space-between;
+    border-radius: 15px;
+    width: 90%;
+    height: 475px;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    row-gap: 2em;
+    column-gap: 2em;
+    padding: 25px 25px;
+    position: relative;
+    margin-left: 40px;
+}
+
+.profileelements {
+    border: 1px solid black;
+    background-color: hsl(51, 96%, 57%);
+    width: 300px;
+    height: 200px;
+    opacity: 0.9;
+    font-weight: bolder;
+    border-radius: 15px;
+    padding: 10px 10px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

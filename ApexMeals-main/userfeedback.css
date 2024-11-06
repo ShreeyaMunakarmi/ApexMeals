@@ -1,0 +1,127 @@
+body {
+    background-color: cadetblue;
+    padding: 5px 5px 5px 5px;
+}
+
+.background {
+    background-image: url(pexels-vanessa-loring-5965989.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 25px;
+    width: 100%;
+    height: 794px;
+}
+
+#corhead {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px 15px;
+}
+
+#imagefeedback {
+    border: 1px solid black;
+    background-color: hsl(51, 96%, 57%);
+    width: 80px;
+    height: 80px;
+    opacity: 0.92;
+    border-radius: 45px;
+    padding: 10px 10px;
+}
+
+#exit {
+    border: 1px solid black;
+    opacity: 0.9;
+    width: 35px;
+    height: 30px;
+    background-color: hsl(51, 96%, 57%);
+    padding: 15px 15px;
+    border-radius: 25px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: justify;
+    margin-left: 86%;
+}
+
+#exit a {
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    text-decoration: none;
+}
+
+#exit a:hover {
+    color: cadetblue;
+}
+
+#title {
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    opacity: 0.9;
+    width: 410px;
+    height: 35px;
+    background-color: hsl(51, 96%, 57%);
+    padding: 10px 10px;
+    border-radius: 25px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: justify;
+}
+
+#cortitle {
+    padding-left: 36%;
+}
+
+#feedbackborder {
+    display: flex;
+    border: 8px ridge lightsalmon;
+    justify-content: space-between;
+    border-radius: 15px;
+    width: 500px;
+    height: 516px;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    row-gap: 2em;
+    column-gap: 2em;
+    padding: 15px 15px;
+    position: relative;
+    margin-left: 32%;
+}
+
+fieldset {
+    background-image: linear-gradient(lightpink, lightblue);
+    width: 400px;
+    height: 478px;
+    padding: 15px 15px 15px 15px;
+    color: black;
+    border: 1px solid black;
+    position: fixed;
+    top: 30%;
+    left: 36%;
+    opacity: 0.9;
+}
+
+label {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+#coricon1 {
+    margin-right: 18px;
+}
+
+#coricon2 {
+    margin-right: 18px;
+}
+
+#buttonclick {
+    width: 405px;
+    color: black;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 15px;
+}
